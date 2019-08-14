@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="commonapi" />
         <module name="commoncomsumer80" />
+        <module name="commoneureka7001" />
         <module name="commonprovider8001" />
         <module name="microservers" />
       </profile>

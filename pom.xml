@@ -11,6 +11,7 @@
         <module>common-api</module>
         <module>common-provider-8001</module>
         <module>common-comsumer-80</module>
+        <module>common-eureka-7001</module>
     </modules>
     <packaging>pom</packaging>
 
