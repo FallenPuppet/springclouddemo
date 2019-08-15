@@ -12,7 +12,8 @@ import java.util.List;
 @RestController
 public class DeptController {
 
-    private static final String PREFIX_URL = "http://localhost:8001";
+    //private static final String PREFIX_URL = "http://localhost:8001";
+    private static final String PREFIX_URL = "http://MICROSERVICE-DEPT";
 
     @Autowired
     private RestTemplate restTemplate;
