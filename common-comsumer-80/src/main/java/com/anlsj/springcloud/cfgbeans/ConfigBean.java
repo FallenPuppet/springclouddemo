@@ -1,7 +1,7 @@
 package com.anlsj.springcloud.cfgbeans;
 
 import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
+import com.netflix.loadbalancer.RetryRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,8 +18,10 @@ public class ConfigBean {
     }
 
     @Bean
-    public IRule getRule(){
-        return new RandomRule();
+    public IRule myRule(){
+        //return new RoundRobinRule();//轮询
+        //return new RandomRule();//随机
+        return new RetryRule();//重试
     }
 
 }
