@@ -32,5 +32,4 @@ public class DeptController {
     public List<Dept> list() {
         return restTemplate.getForObject(PREFIX_URL + "/dept/list", List.class);
     }
-
 }

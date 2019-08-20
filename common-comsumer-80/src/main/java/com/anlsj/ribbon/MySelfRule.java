@@ -1,7 +1,6 @@
 package com.anlsj.ribbon;
 
 import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,7 +9,8 @@ public class MySelfRule {
 
     @Bean
     public IRule myRule() {
-        return new RandomRule();
+        //return new CustomRuleByMySelf();
+        return new CustomRuleByMySelf();
     }
 
 }
