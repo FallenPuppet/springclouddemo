@@ -10,13 +10,13 @@
     <modules>
         <module>common-api</module>
         <module>common-provider-8001</module>
-        <module>common-comsumer-80</module>
+        <module>common-consumer-80</module>
         <module>common-eureka-7001</module>
         <module>common-eureka-7002</module>
         <module>common-eureka-7003</module>
         <module>common-provider-8002</module>
         <module>common-provider-8003</module>
-        <module>common-comsumer-feign</module>
+        <module>common-consumer-feign</module>
     </modules>
     <packaging>pom</packaging>
 

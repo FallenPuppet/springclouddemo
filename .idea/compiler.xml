@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="commonapi" />
-        <module name="commoncomsumer80" />
-        <module name="commoncomsumerfeign" />
+        <module name="commonconsumer80" />
+        <module name="commonconsumerfeign" />
         <module name="commoneureka7001" />
         <module name="commoneureka7002" />
         <module name="commoneureka7003" />

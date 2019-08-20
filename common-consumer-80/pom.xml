@@ -8,8 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>jar</packaging>
-    <artifactId>common-comsumer-feign</artifactId>
+
+    <artifactId>common-consumer-80</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>com.anlsj.springcloud</groupId>
@@ -30,10 +31,6 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-openfeign-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
@@ -41,6 +38,5 @@
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>
