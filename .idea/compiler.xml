@@ -2,21 +2,35 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="commonapi" />
-        <module name="commonconsumer80" />
+        <module name="common-consumer-80" />
         <module name="commonconsumerfeign" />
-        <module name="commoneureka7001" />
-        <module name="commoneureka7002" />
+        <module name="commonconsumer80" />
+        <module name="common-consumer-feign" />
         <module name="commoneureka7003" />
-        <module name="commonprovider8001" />
-        <module name="commonprovider8002" />
-        <module name="commonprovider8003" />
+        <module name="commoneureka7002" />
+        <module name="commoneureka7001" />
         <module name="microservers" />
+        <module name="commonprovider8003" />
+        <module name="commonprovider8002" />
+        <module name="commonprovider8001" />
+        <module name="common-eureka-7003" />
+        <module name="common-eureka-7002" />
+        <module name="common-eureka-7001" />
+        <module name="common-provider-8003" />
+        <module name="common-provider-8002" />
+        <module name="common-provider-8001" />
+        <module name="commonapi" />
+        <module name="common-api" />
+        <module name="commonproviderhystrix8001" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-comsumer-80" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

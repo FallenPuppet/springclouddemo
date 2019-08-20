@@ -10,6 +10,3 @@ spring:
     loadbalancer:
       retry:
         enabled: true
-feign:
-  hystrix:
-    enabled: true
