@@ -1,6 +1,7 @@
 package com.anlsj.springcloud.service;
 
 
+
 import com.anlsj.springcloud.entities.Dept;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
