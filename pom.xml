@@ -18,6 +18,7 @@
         <module>common-provider-8003</module>
         <module>common-consumer-feign</module>
         <module>common-provider-hystrix-8001</module>
+        <module>common-consumer-hystrix-dashboard</module>
     </modules>
     <packaging>pom</packaging>
 
